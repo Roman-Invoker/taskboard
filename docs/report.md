@@ -16,26 +16,26 @@
 - Status Code: `200 OK`
 - Content-Type: `text/html`
 
-![Головна сторінка](images/lab2-index.png)
+![Головна сторінка](../images/lab2-index.png)
 
 ## Помилка 404
 
 Після зміни шляху на `images/logo1.png` у Network з'явився запит `logo1.png` зі статусом **404 Not Found** (Content-Type: `text/html;charset=utf-8`, 335 B). На сторінці замість картинки показався текст з атрибута `alt`.
 
-![Сторінка з помилкою 404](images/lab2-404.png)
+![Сторінка з помилкою 404](../images/lab2-404.png)
 
 ## Elements
 
 Я змінив текст заголовка в Elements. На сторінці він змінився, але файл `index.html` на диску залишився без змін. Після F5 заголовок знову став «TaskBoard».
 
-![Зміна заголовка в Elements](images/lab2-elements.png)
+![Зміна заголовка в Elements](../images/lab2-elements.png)
 
 ## Console
 
 - `document.title` повернула `"TaskBoard"`.
 - `document.body.style.background = "lightyellow"` повернула `"lightyellow"` і зробила фон сторінки світло-жовтим. Після F5 фон повернувся до білого, бо зміна була лише в пам'яті браузера.
 
-![Зміна фону через Console](images/lab2-console.png)
+![Зміна фону через Console](../images/lab2-console.png)
 
 ## Відповіді на запитання
 
