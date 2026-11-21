@@ -42,6 +42,10 @@ TaskBoard дозволяє створювати завдання, ставити
 2. Відкрий папку у VS Code.
 3. Запусти `index.html` через Live Server.
 
+## Демо
+
+[Відкрити сайт](https://roman-invoker.github.io/taskboard/)
+
 ## Скріншот
 
 ![Головна сторінка](images/screenshot.png)
