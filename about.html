@@ -2,12 +2,64 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Про проєкт</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Про автора | TaskBoard</title>
 </head>
 <body>
-  <h1>Про TaskBoard</h1>
-  <p>TaskBoard: дошка завдань, яку ми будуємо на курсі.</p>
-  <p>Автор: Роман Левчук, студент групи ІПЗ-3/2.</p>
-  <a href="index.html">На головну</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Логотип TaskBoard" width="36" height="36">
+      <span>TaskBoard</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Головна</a>
+      <a href="about.html">Про автора</a>
+    </nav>
+  </header>
+  <main class="container">
+    <article class="card profile">
+      <figure>
+        <img src="images/avatar.png" alt="Аватар автора" width="160" height="160">
+        <figcaption>Студент 3 курсу, спеціальність «Інженерія програмного забезпечення»</figcaption>
+      </figure>
+      <div class="profile-text">
+        <h1>Про автора</h1>
+        <p>Мене звати <strong>Роман Левчук</strong>. Я навчаюся в групі ІПЗ-3/2 і створюю навчальний проєкт <em>TaskBoard</em> на курсі веб-технологій.</p>
+        <p>Зараз я вивчаю основи HTML, Git та GitHub, а далі планую додати CSS, JavaScript і серверну частину на Flask.</p>
+      </div>
+    </article>
+    <section>
+      <h2>Навички</h2>
+      <ul>
+        <li>HTML: структура сторінки та семантичні теги</li>
+        <li>Python: змінні, цикли, словники, функції</li>
+        <li>Git і GitHub: commit-и, гілки, Pull Request</li>
+        <li>Markdown: оформлення README та звітів</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Мій план навчання</h2>
+      <table>
+        <thead>
+          <tr><th>Етап</th><th>Що вивчаю</th><th>Статус</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>HTML і Git</td><td>Виконується</td></tr>
+          <tr><td>2</td><td>CSS</td><td>Заплановано</td></tr>
+          <tr><td>3</td><td>JavaScript</td><td>Заплановано</td></tr>
+          <tr><td>4</td><td>Flask і база даних</td><td>Заплановано</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Контакти</h2>
+      <p>Пошта: <a href="mailto:levchuk.r.s_ipz24@rcit.ukr.education">levchuk.r.s_ipz24@rcit.ukr.education</a></p>
+      <p>GitHub: <a href="https://github.com/Roman-Invoker" target="_blank" rel="noopener">github.com/Roman-Invoker</a></p>
+      <p><a href="index.html">Повернутись на головну</a></p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Роман Левчук · TaskBoard · навчальний проєкт</p>
+  </footer>
 </body>
 </html>
